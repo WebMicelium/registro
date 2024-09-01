@@ -1,10 +1,11 @@
-import Regitro from "./Registro.jsx";
+import Login from "./components/pages/login/Login";
 
 function App() {
   return (
-    <div>
-      <h1>Formulario de Registro</h1>
-      <Regitro />
+    <div className="w-full h-screen bg-slate-100">
+      <div className="pt-24">
+        <Login />
+      </div>
     </div>
   );
 }
