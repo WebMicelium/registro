@@ -1,10 +1,11 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div>
+ 
       <>
-      
+      <Outlet />
 
 <footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
@@ -35,7 +36,7 @@ const Footer = () => {
 
 
       </>
-    </div>
+    
   )
 }
 

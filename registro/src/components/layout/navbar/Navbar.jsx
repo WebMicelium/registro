@@ -1,4 +1,4 @@
-import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -41,6 +41,8 @@ const Navbar = () => {
   </div>
   </div>
 </nav>
+
+<Outlet />
     </>
     
 
